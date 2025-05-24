@@ -1,0 +1,42 @@
+# Build outputs
+firmware.bin
+firmware.elf
+firmware.elf.map
+*.o
+*.d
+*.lst
+*.out
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Build directories
+build/
+Debug/
+Release/
+obj/
+
+# Node modules (for SvelteKit frontend)
+node_modules/
+ui/node_modules/
+ui/build/
+ui/.svelte-kit/
+
+# Temporary files
+*.log
+*.tmp
+
+# STM32 specific
+.mxproject
+.cproject
+.project
+.settings/
+
+# Other binary files
+*.hex
+*.bin.dfu
+*.bak
